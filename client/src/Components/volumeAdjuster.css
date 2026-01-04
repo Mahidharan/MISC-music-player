@@ -1,0 +1,49 @@
+/* Overall container for the volume adjuster */
+.volume-adjuster {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Styles for the speaker icon */
+.speaker-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+/* Styles for the slider */
+.volume-slider {
+  width: 160px;
+  height: 4px;
+  appearance: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Slider thumb for WebKit browsers */
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #ff6a34;
+  cursor: pointer;
+}
+
+/* Slider thumb for Mozilla browsers */
+.volume-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #ff6a34;
+  cursor: pointer;
+}
+
+/* Focus state for the slider thumb */
+.volume-slider:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 6px #ff6730;
+}

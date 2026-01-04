@@ -1,0 +1,120 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+.footer-song {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    background-color:#1e1e1e;
+    min-width: 200px;
+    width: 15%;
+    height: 100%;
+}
+
+.song-photo-div {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: black;
+}
+
+.song-name-div {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.song-author {
+    font-size: 10px;
+    color: #b3b3b3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.song-name {
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.song-components, .tools {
+    display: flex;
+    flex-direction: row;
+    gap: 0.9em;
+}
+
+.components, .toolsIcon {
+    width: 1.5em;
+    display: flex;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+    }
+    
+    .footer-song {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .song-photo-div {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .song-name, .song-author {
+        font-size: 0.8em;
+        text-align: center;
+    }
+    
+    .song-components, .tools {
+        gap: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    
+    .footer-song {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .song-photo-div {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .song-name, .song-author {
+        font-size: 0.7em;
+    }
+    
+    .song-components, .tools {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

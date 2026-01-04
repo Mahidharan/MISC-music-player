@@ -1,0 +1,119 @@
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 17%;
+  gap: 1%;
+  padding: 1%;
+
+  justify-content: space-evenly;
+}
+
+.left-bar-one {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  gap: 5%;
+  width: 100%;
+  flex: 1;
+}
+.left-bar-one-one {
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+}
+
+.waveformimage {
+  aspect-ratio: 1;
+  width: 1.5vw;
+}
+
+.left-bar-one-two {
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+}
+
+.playlistimage {
+  aspect-ratio: 1;
+  width: 1.5vw;
+}
+.left-bar-one-three {
+  display: flex;
+  flex-direction: row;
+  gap: 8%;
+}
+.statisticsimage {
+  width: 1.5vw;
+  aspect-ratio: 1;
+}
+.left-bar-two {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 100%;
+  flex: 1;
+  background-color: black;
+}
+/*need to be viewed from here*/
+
+.left-bar-two-header {
+  font-size: 9px;
+  color: #8f8f8f;
+}
+.heartImage {
+  width: 1.5vw;
+  aspect-ratio: 1;
+}
+.listenLaterImage {
+  width: 1.5vw;
+  aspect-ratio: 1;
+}
+.historyImage {
+  width: 1.5vw;
+  aspect-ratio: 1;
+}
+.podcastImage {
+  width: 1.5vw;
+  aspect-ratio: 1;
+}
+.left-bar-two-one {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+.left-bar-two-two {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+.left-bar-two-three {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+.left-bar-two-four {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+.left-bar-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-bar-last-text {
+  color: #d37451;
+  font-size: 0.9rem;
+}
+.left-bar-last {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.plusImage {
+  width: 1vw;
+  aspect-ratio: 1;
+}

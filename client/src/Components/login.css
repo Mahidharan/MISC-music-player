@@ -1,0 +1,108 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #1c1b22;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.login-left {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/background.jpg") no-repeat center center/cover;
+  padding: 2%;
+}
+
+.login-left h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.login-right {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 4%;
+  border-radius: 0.625rem;
+}
+
+.login-right h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.login-right p {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 2%;
+  border: 1px solid #555;
+  border-radius: 0.3125rem;
+  background-color: #3c3b4f;
+  color: #fff;
+  margin-top: 2%;
+}
+
+.login-btn {
+  padding: 3%;
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: #d75729;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #ff642c;
+}
+
+.social-login {
+  display: flex;
+  gap: 5%;
+  margin-top: 5%;
+}
+
+.google-btn,
+.apple-btn {
+  display: flex;
+  align-items: center;
+  gap: 1.5%;
+  padding: 2%;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.google-btn {
+  background-color: #fff;
+  color: black;
+}
+
+.apple-btn {
+  background-color: white;
+  color: black;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+}
